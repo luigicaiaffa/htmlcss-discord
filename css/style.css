@@ -1,0 +1,197 @@
+/* RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1080px;
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  padding: 15px 0;
+
+  /* DEBUG */
+  background-color: #255ee9;
+}
+
+.page-header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Debug */
+  /* background-color: goldenrod; */
+}
+
+.nav-header {
+  text-align: center;
+}
+
+.nav-link > li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  margin: 0 12px;
+}
+
+.login-header {
+  background-color: white;
+  text-align: right;
+  font-size: small;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+/* FIRST SECTION */
+
+.first-section {
+  padding: 40px 0;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-section > .container {
+  /* DEBUG */
+  background-color: palevioletred;
+  border: 1px dashed black;
+  width: 700px;
+  min-height: 300px;
+}
+
+/* MAIN SECTION */
+
+.main-section.bg-gray {
+  /* DEBUG */
+  background-color: lightgrey;
+}
+
+.main-section {
+  padding: 40px 0;
+}
+
+.main-section > .container {
+  display: flex;
+}
+
+.lg-block {
+  width: 60%;
+
+  /* DEBUG */
+  min-height: 350px;
+  background-color: lightblue;
+  border: 1px dashed black;
+}
+
+.sm-block {
+  width: 40%;
+
+  /* DEBUG */
+  min-height: 350px;
+  background-color: pink;
+  border: 1px dashed black;
+}
+
+/* LAST SECTION */
+
+.last-section {
+  padding: 40px 0;
+
+  /* DEBUG */
+  background-color: lightgrey;
+}
+
+.last-block {
+  /* DEBUG */
+  min-height: 750px;
+  background-color: green;
+  border: 1px dashed black;
+}
+
+/* UPPER FOOTER */
+
+.footer-bg {
+  background-color: grey;
+  padding-top: 15px;
+}
+
+.upper-footer > .container {
+  display: flex;
+  padding-bottom: 20px;
+
+  /* DEBUG */
+  min-height: 500px;
+}
+
+.footer-block-sm {
+  width: 28%;
+
+  /* DEBUG */
+  background-color: palevioletred;
+  border: 1px dashed black;
+}
+
+.footer-block-lg {
+  width: 72%;
+  display: flex;
+
+  /* DEBUG */
+  background-color: aqua;
+  border: 1px dashed black;
+}
+
+.footer-block-lg > .sm-col {
+  width: 25%;
+
+  /* DEBUG */
+  border: 1px dashed white;
+}
+
+/* LOWER FOOTER */
+
+.lower-footer {
+  padding-top: 20px;
+}
+
+.lower-footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* DEBUG */
+  padding: 15px 0;
+  background-color: lightblue;
+  border: 1px dashed black;
+}
+
+.footer-logo {
+  padding: 5px;
+
+  /* DEBUG */
+  background-color: pink;
+  border: 1px dashed black;
+}
+
+.footer-button {
+  padding: 5px;
+
+  /* DEBUG */
+  background-color: pink;
+  border: 1px dashed black;
+}
