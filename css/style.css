@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 img {
   max-width: 100%;
 }
@@ -21,6 +17,7 @@ img {
   padding: 0 10px;
   width: 1080px;
   max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* PAGE HEADER */
@@ -207,10 +204,6 @@ img {
   color: #496fd3;
   font-size: 1.7rem;
   padding-top: 10px;
-
-  /* DEBUG */
-  /* background-color: palevioletred;
-  border: 1px dashed black; */
 }
 
 .footer-block-sm > div {
@@ -234,17 +227,10 @@ img {
 .footer-block-lg {
   width: 72%;
   display: flex;
-
-  /* DEBUG */
-  /* background-color: aqua;
-  border: 1px dashed black; */
 }
 
 .footer-block-lg > .sm-col {
   width: 25%;
-
-  /* DEBUG */
-  /* border: 1px dashed white; */
 }
 
 .footer-list > .footer-list-title {
@@ -260,33 +246,18 @@ img {
 
 /* LOWER FOOTER */
 
-.lower-footer {
-  padding-top: 20px;
-}
-
 .lower-footer > .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
-  /* DEBUG */
-  padding: 15px 0;
-  background-color: lightblue;
-  border: 1px dashed black;
-}
-
-.footer-logo {
-  padding: 5px;
-
-  /* DEBUG */
-  background-color: pink;
-  border: 1px dashed black;
+  align-items: top;
+  border-top: 1px solid #496fd3;
+  padding: 30px 0;
 }
 
 .footer-button {
-  padding: 5px;
-
-  /* DEBUG */
-  background-color: pink;
-  border: 1px dashed black;
+  background-color: #7289da;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  padding: 10px 12px;
 }
