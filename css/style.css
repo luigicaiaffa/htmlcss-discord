@@ -33,10 +33,6 @@ img {
   justify-content: space-between;
 }
 
-.logo-header {
-  width: 69.03px;
-}
-
 .nav-header {
   text-align: center;
 }
@@ -54,6 +50,7 @@ img {
   text-align: right;
   font-size: small;
   cursor: pointer;
+  margin-left: 54.97px;
   border-radius: 20px;
   padding: 10px 15px;
 }
@@ -257,6 +254,7 @@ img {
 .footer-button {
   background-color: #7289da;
   color: white;
+  cursor: pointer;
   font-size: 0.9rem;
   border-radius: 20px;
   padding: 10px 12px;
