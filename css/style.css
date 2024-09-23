@@ -213,6 +213,24 @@ img {
   border: 1px dashed black; */
 }
 
+.footer-block-sm > div {
+  padding-top: 10px;
+}
+
+.flag-img {
+  max-height: 15px;
+}
+
+.select-lang {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer-social-link img {
+  padding: 5px;
+  min-height: 35px;
+}
+
 .footer-block-lg {
   width: 72%;
   display: flex;
